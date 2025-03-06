@@ -13,7 +13,7 @@ const PartnersHero: React.FC<PartnersHeroProps> = ({ scrollToPartners }) => {
 
   return (
     <section className="bg-gradient-to-r from-solar-green/10 to-tirupati-blue/10 py-16 relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://via.placeholder.com/1920x1080?text=Partners')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('/lovable-uploads/c8ad6a03-84e2-4405-9328-c14c5be7127a.png')] bg-cover bg-center opacity-10"></div>
       <div className="solar-container relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="font-display font-semibold text-gray-900 mb-4 animate-fade-down">
@@ -28,13 +28,14 @@ const PartnersHero: React.FC<PartnersHeroProps> = ({ scrollToPartners }) => {
               onClick={() => navigate('/contact')}
               icon={<Users size={18} />}
               iconPosition="left"
-              className="shadow-md shadow-green-300/30 text-white font-semibold border-2 border-green-600"
+              className="shadow-lg shadow-green-300/30 text-white font-bold border-2 border-green-600 hover:bg-green-700"
             >
               Become a Partner
             </CustomButton>
             <CustomButton 
               variant="outline" 
               onClick={scrollToPartners}
+              className="bg-white border-2 border-tirupati-blue hover:bg-tirupati-blue/5"
             >
               View All Partners
             </CustomButton>

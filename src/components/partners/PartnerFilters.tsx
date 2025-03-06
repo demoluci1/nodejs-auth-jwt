@@ -43,15 +43,15 @@ const PartnerFilters: React.FC<PartnerFiltersProps> = ({
     <>
       {/* Search and Filter Bar */}
       <div className="mb-8">
-        <div className="flex flex-col md:flex-row gap-4 items-center bg-white rounded-xl shadow-sm p-4 border border-gray-100">
+        <div className="flex flex-col md:flex-row gap-4 items-center bg-white rounded-xl shadow-md p-4 border border-gray-200">
           <div className="relative flex-grow">
             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Search size={18} className="text-gray-400" />
+              <Search size={18} className="text-gray-500" />
             </div>
             <input
               type="text"
               placeholder="Search partners..."
-              className="pl-10 pr-10 py-2 w-full border border-gray-200 rounded-lg focus:ring-2 focus:ring-solar-green/20 focus:border-solar-green/60 outline-none transition-all duration-300"
+              className="pl-10 pr-10 py-2.5 w-full border-2 border-gray-200 rounded-lg focus:ring-2 focus:ring-solar-green/30 focus:border-solar-green/60 outline-none transition-all duration-300"
               value={searchTerm}
               onChange={handleSearchChange}
             />
@@ -68,7 +68,7 @@ const PartnerFilters: React.FC<PartnerFiltersProps> = ({
             <CustomButton
               variant="outline"
               size="md"
-              className="w-full md:w-auto border-2 border-tirupati-blue font-medium"
+              className="w-full md:w-auto border-2 border-tirupati-blue font-medium bg-white text-tirupati-blue hover:bg-tirupati-blue/10 shadow-md"
               icon={<Filter size={18} />}
               iconPosition="left"
               onClick={() => setShowFilters(!showFilters)}
@@ -86,10 +86,10 @@ const PartnerFilters: React.FC<PartnerFiltersProps> = ({
           {categories.map((category) => (
             <button
               key={category.id}
-              className={`px-6 py-2 rounded-full transition-all duration-300 font-medium shadow-sm ${
+              className={`px-6 py-2 rounded-full transition-all duration-300 font-semibold shadow-md ${
                 activeCategory === category.id
-                  ? 'bg-solar-green text-white shadow-md shadow-green-300/30 transform scale-105 border-2 border-green-600'
-                  : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
+                  ? 'bg-solar-green text-white shadow-lg shadow-green-300/30 transform scale-105 border-2 border-green-600'
+                  : 'bg-white text-gray-700 hover:bg-gray-100 border-2 border-gray-300 hover:border-gray-400'
               }`}
               onClick={() => setActiveCategory(category.id)}
             >
