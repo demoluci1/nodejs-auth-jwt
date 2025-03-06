@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="solar-container pt-32 lg:pt-44 pb-20 relative">
         <div className="max-w-3xl">
           <div className={`transition-all duration-700 ${loaded ? 'opacity-100' : 'opacity-0 translate-y-4'}`}>
-            <span className="inline-block px-3 py-1 bg-tirupati-purple/10 text-tirupati-purple font-medium text-sm rounded-full mb-5">
+            <span className="inline-block px-3 py-1 bg-solar-green/10 text-solar-green font-medium text-sm rounded-full mb-5">
               Powering a Sustainable Future
             </span>
           </div>
@@ -38,7 +38,7 @@ const Hero = () => {
             }`}
           >
             Premium Solar Solutions for a 
-            <span className="text-tirupati-blue"> Brighter</span> Tomorrow
+            <span className="text-solar-blue"> Brighter</span> Tomorrow
           </h1>
           
           <p 
@@ -65,7 +65,7 @@ const Hero = () => {
             </CustomButton>
             
             <CustomButton
-              variant="secondary"
+              variant="outline"
               size="lg"
               onClick={() => navigate('/partners')}
             >
@@ -76,21 +76,21 @@ const Hero = () => {
 
         {/* Floating elements */}
         <div 
-          className={`absolute -right-32 top-40 w-96 h-96 bg-tirupati-blue/5 rounded-full blur-3xl transition-all duration-1000 ${
+          className={`absolute -right-32 top-40 w-96 h-96 bg-solar-blue/5 rounded-full blur-3xl transition-all duration-1000 ${
             loaded ? 'opacity-70' : 'opacity-0'
           }`}
           aria-hidden="true"
         />
         
         <div 
-          className={`absolute right-24 md:right-1/4 top-1/3 w-24 h-24 bg-tirupati-lightblue/20 rounded-full blur-2xl transition-all duration-1000 delay-500 ${
+          className={`absolute right-24 md:right-1/4 top-1/3 w-24 h-24 bg-solar-yellow/20 rounded-full blur-2xl transition-all duration-1000 delay-500 ${
             loaded ? 'opacity-80' : 'opacity-0'
           }`}
           aria-hidden="true"
         />
         
         <div 
-          className={`absolute right-1/3 bottom-1/4 w-40 h-40 bg-tirupati-purple/10 rounded-full blur-2xl transition-all duration-1000 delay-700 ${
+          className={`absolute right-1/3 bottom-1/4 w-40 h-40 bg-solar-green/10 rounded-full blur-2xl transition-all duration-1000 delay-700 ${
             loaded ? 'opacity-60' : 'opacity-0'
           }`}
           aria-hidden="true"
