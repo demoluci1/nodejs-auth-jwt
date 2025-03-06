@@ -139,7 +139,7 @@ const PartnersShowcase = () => {
             onClick={() => navigate('/partners')}
             icon={<Users size={18} />}
             iconPosition="left"
-            className="shadow-lg shadow-solar-green/20 hover:shadow-xl hover:shadow-solar-green/20"
+            className="shadow-lg shadow-green-300/30 hover:shadow-xl hover:shadow-green-300/30 text-white font-semibold border-2 border-green-600"
           >
             View All Partners
           </CustomButton>

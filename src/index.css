@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -36,6 +35,8 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+    
+    --solar-green: 142 76% 36%; /* Added for better solar-green reference */
   }
 
   .dark {

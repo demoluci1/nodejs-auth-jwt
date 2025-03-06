@@ -254,6 +254,7 @@ const Partners = () => {
                   onClick={() => navigate('/contact')}
                   icon={<Users size={18} />}
                   iconPosition="left"
+                  className="shadow-md shadow-green-300/30 text-white font-semibold border-2 border-green-600"
                 >
                   Become a Partner
                 </CustomButton>
@@ -301,7 +302,7 @@ const Partners = () => {
                   <CustomButton
                     variant="outline"
                     size="md"
-                    className="w-full md:w-auto"
+                    className="w-full md:w-auto border-2 border-tirupati-blue font-medium"
                     icon={<Filter size={18} />}
                     iconPosition="left"
                     onClick={() => setShowFilters(!showFilters)}
@@ -319,10 +320,10 @@ const Partners = () => {
                 {categories.map((category) => (
                   <button
                     key={category.id}
-                    className={`px-6 py-2 rounded-full transition-all duration-300 ${
+                    className={`px-6 py-2 rounded-full transition-all duration-300 font-medium shadow-sm ${
                       activeCategory === category.id
-                        ? 'bg-solar-green text-white shadow-md shadow-solar-green/20 transform scale-105'
-                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                        ? 'bg-solar-green text-white shadow-md shadow-green-300/30 transform scale-105 border-2 border-green-600'
+                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
                     }`}
                     onClick={() => setActiveCategory(category.id)}
                   >
