@@ -67,11 +67,12 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// Solar company specific colors
-				solar: {
-					'green': '#2E7D32',
-					'blue': '#1565C0',
-					'yellow': '#FFD700',
+				// Tirupati Enterprises colors based on the logo
+				tirupati: {
+					'blue': '#009EE0',    // Bright blue from logo
+					'lightblue': '#29ABE2', // Light blue from logo
+					'purple': '#2A1A5E',  // Deep purple from logo
+					'gray': '#999999',    // Gray from "TE" in logo
 					'light-gray': '#F5F5F5',
 					'off-white': '#FAFAFA',
 				}

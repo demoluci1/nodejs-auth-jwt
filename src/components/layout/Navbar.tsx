@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import { Menu, X, Sun } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import CustomButton from '../ui/CustomButton';
 
@@ -39,12 +39,12 @@ const Navbar = () => {
       <div className="solar-container">
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <NavLink to="/" className="flex items-center gap-2">
-            <Sun className="h-9 w-9 text-solar-yellow animate-slow-spin" />
-            <div className="font-display">
-              <span className="font-bold text-xl block leading-none">Tirupati</span>
-              <span className="text-sm text-solar-green block leading-tight">Enterprises</span>
-            </div>
+          <NavLink to="/" className="flex items-center">
+            <img 
+              src="/lovable-uploads/46906533-fc19-459f-acf6-b22b3d1e410e.png" 
+              alt="Tirupati Enterprises Logo" 
+              className="h-14 w-auto"
+            />
           </NavLink>
 
           {/* Desktop Navigation */}
@@ -56,9 +56,9 @@ const Navbar = () => {
                     to={link.path}
                     className={({ isActive }) =>
                       cn(
-                        'relative text-base font-medium transition-colors hover:text-solar-blue',
+                        'relative text-base font-medium transition-colors hover:text-tirupati-blue',
                         isActive
-                          ? 'text-solar-blue after:absolute after:bottom-[-5px] after:left-0 after:h-[2px] after:w-full after:bg-solar-blue after:content-[""]'
+                          ? 'text-tirupati-blue after:absolute after:bottom-[-5px] after:left-0 after:h-[2px] after:w-full after:bg-tirupati-blue after:content-[""]'
                           : 'text-gray-800'
                       )
                     }
@@ -99,8 +99,8 @@ const Navbar = () => {
                   to={link.path}
                   className={({ isActive }) =>
                     cn(
-                      'text-lg font-medium transition-colors hover:text-solar-blue block',
-                      isActive ? 'text-solar-blue' : 'text-gray-800'
+                      'text-lg font-medium transition-colors hover:text-tirupati-blue block',
+                      isActive ? 'text-tirupati-blue' : 'text-gray-800'
                     )
                   }
                 >

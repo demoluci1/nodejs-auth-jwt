@@ -21,10 +21,10 @@ const CustomButton = ({
   ...props
 }: CustomButtonProps) => {
   const variantStyles = {
-    primary: 'bg-solar-blue text-white hover:bg-blue-700 focus:ring-blue-300',
-    secondary: 'bg-solar-green text-white hover:bg-green-700 focus:ring-green-300',
-    accent: 'bg-solar-yellow text-black hover:bg-yellow-400 focus:ring-yellow-300',
-    outline: 'bg-transparent border border-current text-solar-blue hover:bg-solar-blue/5',
+    primary: 'bg-tirupati-blue text-white hover:bg-blue-600 focus:ring-blue-300',
+    secondary: 'bg-tirupati-purple text-white hover:bg-purple-700 focus:ring-purple-300',
+    accent: 'bg-tirupati-lightblue text-white hover:bg-blue-400 focus:ring-blue-200',
+    outline: 'bg-transparent border border-current text-tirupati-blue hover:bg-tirupati-blue/5',
     ghost: 'bg-transparent hover:bg-gray-100',
   };
 
