@@ -27,6 +27,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'Products', path: '/products' },
     { name: 'Partners', path: '/partners' },
+    { name: 'Contact', path: '/contact' },
   ];
 
   return (
@@ -68,9 +69,6 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
-            <CustomButton variant="primary" size="md">
-              Contact Us
-            </CustomButton>
           </div>
 
           {/* Mobile Menu Button */}
@@ -109,9 +107,6 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <CustomButton variant="primary" size="lg" className="w-full">
-            Contact Us
-          </CustomButton>
         </div>
       </div>
     </header>
