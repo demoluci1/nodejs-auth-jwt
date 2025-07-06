@@ -26,10 +26,10 @@ const CustomButton = ({
   ...props
 }: CustomButtonProps) => {
   const variantStyles = {
-    primary: 'bg-gradient-to-r from-solar-blue to-blue-600 text-white hover:from-blue-600 hover:to-blue-700 focus:ring-blue-300 shadow-lg hover:shadow-xl',
-    secondary: 'bg-gradient-to-r from-solar-green to-green-600 text-white hover:from-green-600 hover:to-green-700 focus:ring-green-300 shadow-lg hover:shadow-xl',
-    accent: 'bg-gradient-to-r from-solar-yellow to-yellow-400 text-black hover:from-yellow-400 hover:to-yellow-500 focus:ring-yellow-300 shadow-lg hover:shadow-xl',
-    outline: 'bg-transparent border-2 border-solar-blue text-solar-blue hover:bg-solar-blue hover:text-white focus:ring-blue-300 shadow-md hover:shadow-lg',
+    primary: 'bg-solar-blue text-white hover:bg-blue-700 focus:ring-blue-300 shadow-md hover:shadow-lg',
+    secondary: 'bg-solar-green text-white hover:bg-green-700 focus:ring-green-300 shadow-md hover:shadow-lg',
+    accent: 'bg-solar-yellow text-black hover:bg-yellow-500 focus:ring-yellow-300 shadow-md hover:shadow-lg',
+    outline: 'bg-transparent border-2 border-solar-blue text-solar-blue hover:bg-solar-blue hover:text-white focus:ring-blue-300 shadow-sm hover:shadow-md',
     ghost: 'bg-transparent hover:bg-gray-100 text-gray-700 hover:text-gray-900',
     gradient: 'bg-gradient-to-r from-solar-blue via-solar-green to-solar-yellow text-white hover:scale-105 focus:ring-blue-300 shadow-lg hover:shadow-2xl',
   };
