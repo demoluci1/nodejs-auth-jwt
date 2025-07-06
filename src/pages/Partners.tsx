@@ -180,7 +180,7 @@ const Partners = () => {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Navbar />
       
       <main className="flex-grow pt-24">
@@ -200,9 +200,9 @@ const Partners = () => {
         
         {/* Partners Section */}
         <section className="py-16">
-          <div className="solar-container">
+          <div className="solar-container scrollbar-hide overflow-x-auto">
             {/* Categories */}
-            <div className="mb-12 overflow-x-auto">
+            <div className="mb-12 overflow-x-auto scrollbar-hide">
               <div className="flex space-x-4 min-w-max">
                 {categories.map((category) => (
                   <button
