@@ -117,6 +117,18 @@ export default {
 				'blur-in': {
 					from: { opacity: '0', filter: 'blur(8px)' },
 					to: { opacity: '1', filter: 'blur(0)' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'spin-slow': {
+					from: { transform: 'rotate(0deg)' },
+					to: { transform: 'rotate(360deg)' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { boxShadow: '0 0 20px rgba(59, 130, 246, 0.5)' },
+					'50%': { boxShadow: '0 0 40px rgba(59, 130, 246, 0.8)' }
 				}
 			},
 			animation: {
@@ -128,13 +140,17 @@ export default {
 				'fade-left': 'fade-left 0.7s ease-out',
 				'fade-right': 'fade-right 0.7s ease-out',
 				'scale-in': 'scale-in 0.5s ease-out',
-				'blur-in': 'blur-in 0.5s ease-out'
+				'blur-in': 'blur-in 0.5s ease-out',
+				'float': 'float 3s ease-in-out infinite',
+				'spin-slow': 'spin-slow 20s linear infinite',
+				'pulse-glow': 'pulse-glow 2s ease-in-out infinite'
 			},
 			transitionDuration: {
 				'2000': '2000ms',
 			},
 			backgroundImage: {
 				'hero-pattern': 'linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5))',
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 			},
 			backdropFilter: {
 				'none': 'none',
