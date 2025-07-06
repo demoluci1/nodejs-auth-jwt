@@ -203,7 +203,7 @@ const Partners = () => {
           <div className="solar-container scrollbar-hide overflow-x-auto">
             {/* Categories */}
             <div className="mb-12 overflow-x-auto scrollbar-hide">
-              <div className="flex space-x-4 min-w-max">
+              <div className="flex space-x-2 min-w-max">
                 {categories.map((category) => (
                   <button
                     key={category.id}
